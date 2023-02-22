@@ -1,0 +1,32 @@
+@media only screen and (max-width: 739px) {
+    .movies_item {
+        width: 25%;
+    }
+    #slider {
+        display: none;
+    }
+    .suggest {
+        display: none;
+    }
+    .movies_item img {
+        height: 180px;
+    }
+    .search_bar form {
+        min-width: 100px;
+    }
+    #wrapper {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    #wrapper {
+        width: 100% !important;
+    }
+    #slider .slider-outer img {
+        height: 230px;
+    }
+    .movies_item img {
+        height: 180px;
+    }
+}
